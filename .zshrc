@@ -2,7 +2,7 @@ if [ "$TMUX" = "" ]; then tmux; fi
 
 export ZSH="$HOME/.oh-my-zsh"
 export PATH=$PATH:/usr/local/go/bin
-
+export DISABLE_UPDATE_PROMPT=true
 ZSH_THEME="custom-ys"
 
 
