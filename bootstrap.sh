@@ -21,7 +21,7 @@ symlink_file() {
 # Top-level dotfiles (skip . and .. and .config and bootstrap.sh itself)
 for file in "$DOTFILES_DIR"/.*; do
     base="$(basename "$file")"
-    [[ "$base" == "." || "$base" == ".." || "$base" == ".config" || "$base" == "bootstrap.sh" ]] && continue
+    [[ "$base" == "." || "$base" == ".." || "$base" == ".config" || "$base" == "bootstrap.sh" || "$base" == ".git" ]] && continue
     symlink_file "$file" "$HOME/$base"
 done
 
