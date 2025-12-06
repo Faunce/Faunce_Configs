@@ -1,4 +1,10 @@
-if [ "$TMUX" = "" ]; then tmux; fi
+# Auto start TMUX with ZSH and kill ZSH when TMUX dies - i may regret this at some point?
+if [[ -z "$TMUX" ]]; then
+    # Attach if session exists, otherwise create new
+    tmux attach-session -t default || tmux new-session -s default
+    # Exit zsh when tmux exits
+    exit
+fi
 
 export ZSH="$HOME/.oh-my-zsh"
 export PATH=$PATH:/usr/local/go/bin
