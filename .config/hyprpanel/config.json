@@ -1,0 +1,51 @@
+{
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "menus.dashboard.stats.enable_gpu": true,
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Firefox",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "firefox",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "󰈹",
+  "menus.dashboard.shortcuts.left.shortcut4.command": "fuzzel",
+  "theme.bar.border.location": "none",
+  "bar.workspaces.monitorSpecific": false,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "theme.bar.floating": false,
+  "menus.power.showLabel": false,
+  "bar.customModules.microphone.label": true,
+  "bar.battery.label": false,
+  "theme.bar.menus.menu.battery.scaling": 100
+}
