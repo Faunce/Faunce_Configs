@@ -5,24 +5,15 @@
   "menus.dashboard.stats.enable_gpu": true,
   "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Firefox",
   "menus.dashboard.shortcuts.left.shortcut1.command": "firefox",
-  "menus.dashboard.shortcuts.left.shortcut1.icon": "󰈹",
+  "menus.dashboard.shortcuts.left.shortcut2.tooltip": "Discord",
   "menus.dashboard.shortcuts.left.shortcut4.command": "fuzzel",
   "theme.bar.border.location": "none",
-  "bar.workspaces.monitorSpecific": false,
+  "bar.workspaces.monitorSpecific": true,
   "bar.layouts": {
     "0": {
       "left": [
-        "dashboard",
         "workspaces",
         "windowtitle"
-      ],
-      "middle": [
-        "media"
-      ],
-      "right": [
-        "volume",
-        "clock",
-        "notifications"
       ]
     },
     "1": {
@@ -47,5 +38,13 @@
   "menus.power.showLabel": false,
   "bar.customModules.microphone.label": true,
   "bar.battery.label": false,
-  "theme.bar.menus.menu.battery.scaling": 100
+  "theme.bar.menus.menu.battery.scaling": 100,
+  "theme.bar.buttons.workspaces.enableBorder": false,
+  "bar.workspaces.showWsIcons": true,
+  "bar.workspaces.scroll_speed": 6,
+  "bar.workspaces.workspaces": 6,
+  "theme.bar.buttons.windowtitle.enableBorder": false,
+  "bar.windowtitle.custom_title": false,
+  "menus.dashboard.shortcuts.left.shortcut2.command": "kitty spotatui",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": ""
 }
